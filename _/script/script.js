@@ -22,7 +22,7 @@ var feed = new Instafeed({
     clientId: 'b9eea1a951e24c54bbfd46e8360119f1',
     resolution: 'standard_resolution',
     sortBy: 'most-recent',
-    limit: '60'
+    limit: '40'
 });
 feed.run();
 

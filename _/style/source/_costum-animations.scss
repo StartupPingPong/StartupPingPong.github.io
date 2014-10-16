@@ -33,6 +33,8 @@
   }
 }
 
+
+
 @keyframes ping-pong {
   0% {
     opacity: 0;
@@ -56,14 +58,54 @@
   }
 }
 
+@keyframes ping-pong-simple {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+    fill: #fff;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+    fill: #fff;
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+    fill: #fff;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    fill: #000;
+  }
+}
+
 // bezier // transition: transform 200ms cubic-bezier(0.63, 0.62, 0.48, 1.64);
+#chrome-user + main#wrong-browser + main#main {
+  svg {
+    #plane {
+      animation-fill-mode: both;
+      animation-timing-function: ease;
+      animation-name: planeanimation;
+      animation-delay: 2.2s;
+      animation-duration: 1s;
+    }
+    #ping-pong {
+      path {
+        animation-name: ping-pong;
+      }
+    }
+  }
+}
+
+
 
 svg {
   #plane {
-    animation-fill-mode: both;
-    animation-timing-function: cubic-bezier(.52,1.17,.89,.99);
-    animation-name: planeanimation;
-    animation-delay: 2.2s;
+    @include animate();
+    @include fadeIn();
+    animation-delay: 2.6s;
     animation-duration: 1s;
   }
   #startup {
@@ -96,7 +138,7 @@ svg {
   #ping-pong {
     path {
       @include animate();
-      animation-name: ping-pong;
+      animation-name: ping-pong-simple;
       animation-duration: 1s;
     }
     path:nth-child(1) {

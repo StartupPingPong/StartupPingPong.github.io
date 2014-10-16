@@ -177,10 +177,6 @@ section {
     } 
 }
 
-main {
-  display: none;
-}
-
 main#wrong-browser {
   display: block;
   float: left;
@@ -197,32 +193,6 @@ main#wrong-browser {
       border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     }
   }
-}
-
-/*#wrong-browser, #chrome-user {
-  display: none!important;
-}
-
-main#main {
-  display: block!important;
-}*/
-
-
-
-#chrome-user {
-  position: absolute;
-  visibility: hidden;
-}
-
-#chrome-user + #wrong-browser {
-  display: none!important;
-}
-
-#chrome-user + main#wrong-browser + main#main {
-  display: block!important;
-}
-
-main#main {
 }
 
 footer {
@@ -248,4 +218,31 @@ footer {
 }
 
 
+main {
+  //display: none;
+}
+
+#wrong-browser, #chrome-user {
+  display: none!important;
+}
+
+main#main {
+  display: block!important;
+}
+
+/*
+#chrome-user {
+  position: absolute;
+  visibility: hidden;
+}
+
+#chrome-user + #wrong-browser {
+  display: none!important;
+}
+
+#chrome-user + main#wrong-browser + main#main {
+  display: block!important;
+}
+
+*/
  

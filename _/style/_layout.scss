@@ -16,6 +16,10 @@ section {
   z-index: 9999;
 }
 
+main#main, header, footer {
+  min-width: 500px;
+}
+
 #header-bg {
   overflow: hidden;
   height: $headerHeight;
@@ -33,7 +37,7 @@ section {
       line-height: 0px;
       @media (max-width: 800px){
         display: block!important;
-        width: 25%;
+        width: 33.3333%!important;
       }
       &:hover {
         border: 0px;

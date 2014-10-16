@@ -87,6 +87,9 @@ svg {
 
 
 section {
+  margin: 0!important;
+  padding: 0!important;
+  margin: auto!important;
   top: $headerHeight * 0.85;
   .fb-like-box {
     width: 500px!important;

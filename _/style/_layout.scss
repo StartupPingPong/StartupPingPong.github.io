@@ -1,4 +1,4 @@
-$headerHeight: 65vh;
+$headerHeight: 70vh;
 
 #instafeed {
     z-index: 999;
@@ -16,34 +16,12 @@ section {
   z-index: 9999;
 }
 
-body {
-  min-width: 420px!important;
-  @media (max-width: 420px){
-    margin: 0!important;
-    width: 420px!important;
-    overflow: hidden!important;
-    float: left!important;
-    height: auto!important;
-    display: block!important;;
-    height: auto !important;
-  }
-}
-
-
-
-main#main, header, footer {
-  min-width: 420px;
-}
-
 #header-bg {
   overflow: hidden;
   height: $headerHeight;
   position: absolute;
   left: 0;
   top: 0;
-  @media (max-width: 700px){
-    display: none;
-  }
   #instafeed {
     a {
       float: left; 
@@ -55,7 +33,7 @@ main#main, header, footer {
       line-height: 0px;
       @media (max-width: 800px){
         display: block!important;
-        width: 33.3333%!important;
+        width: 25%;
       }
       &:hover {
         border: 0px;
@@ -70,13 +48,13 @@ main#main, header, footer {
   }
   #gradient {
     position: absolute;
-    height: 68vh;
+    height: 70.2vh;
     width: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 75%,rgba(0,0,0,1) 100%);
   }
   #colorfill {
     position: absolute;
-    height: 68vh;
+    height: 70.2vh;
     width: 100%;
     background: rgba(0,0,0,0.4);
   }
@@ -89,41 +67,23 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  @media (max-width: 700px){
-    height: auto;
-  }
   @include wrapper();
   @include middle();
 }
 svg {
   height: $headerHeight / 1.5;
-  @media (max-width: 700px){
-    height: auto;
-  }
   @media (max-width: 800px) {
       max-width: 240px;
   }
   margin: auto;
   fill: #fff;
   position: relative;
-  left: -3px;
+  left: fnGetSpacing(-19);
 }
 
 
 section {
-  margin: 0!important;
-  margin: auto!important;
-
-  @media (max-width: 420px){
-    margin: 0 0 0 10px!important;
-    width: 400px!important;
-  }
-
-  top: $headerHeight * 1;
-
-  @media (max-width: 700px){
-    top: 450px;
-  }
+  top: $headerHeight * 0.85;
   .fb-like-box {
     width: 500px!important;
   }
@@ -212,15 +172,9 @@ section {
     svg#logo-timeline {
     width: 250px;
       #ping-pong path {
-        fill: #000!important;
+        fill: #000;
       }
     } 
-}
-
-svg {
-      #ping-pong path {
-        fill: #000!important;
-      }
 }
 
 main#wrong-browser {
@@ -268,8 +222,12 @@ main {
   //display: none;
 }
 
-#wrong-browser, #chrome-user {
+#wrong-browser, #chrome-user, #firefox-user {
   display: none!important;
+}
+
+main#main {
+  display: block!important;
 }
 
 /*
@@ -285,6 +243,5 @@ main {
 #chrome-user + main#wrong-browser + main#main {
   display: block!important;
 }
-
 */
  

@@ -38,7 +38,13 @@ var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 if (is_chrome) {
     document.write('<div id="chrome-user">You are awesome. Chrome user.</div>')
 }
+var is_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+if (is_firefox) {
+    document.write('<div id="firefox-user">You are not so awesome.</div>')
+}
 </script>  
+
+
 
 <main id="wrong-browser">
 	<h4>Chrome users only.</h4>

@@ -1,11 +1,11 @@
+
 @media(min-width: 768px){
+
   #header-bg {
     #instafeed {
-      a {
-        @include animate();
-        animation-name: fadeIn;
-        animation-delay: 4s;
-      }
+      @include animate();
+      animation-name: fadeIn;
+      animation-delay: 4s;
     }
     #gradient {
       @include animate();
@@ -16,6 +16,19 @@
       animation-name: fadeIn;
     }
   }
+
+  /*#firefox-user + main#wrong-browser + main#main {
+    #header-bg {
+      #instafeed {
+        @include animate();
+        animation-name: fadeIn;
+        animation-delay: 4s;
+        a {
+          animation: none!important;
+        }
+      }
+    }
+  }*/
 
   // logo madness
 
@@ -33,8 +46,6 @@
       transform: translateY(0);
     }
   }
-
-
 
   @keyframes ping-pong {
     0% {

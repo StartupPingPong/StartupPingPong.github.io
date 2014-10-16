@@ -17,12 +17,12 @@ section {
 }
 
 main#main, header, footer {
-  min-width: 600px;
+  min-width: 420px;
 }
 
 #header-bg {
   overflow: hidden;
-  height: 72vh;
+  height: $headerHeight;
   position: absolute;
   left: 0;
   top: 0;
@@ -52,13 +52,13 @@ main#main, header, footer {
   }
   #gradient {
     position: absolute;
-    height: 72vh;
+    height: 74vh;
     width: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 75%,rgba(0,0,0,1) 100%);
   }
   #colorfill {
     position: absolute;
-    height: 72vh;
+    height: 74vh;
     width: 100%;
     background: rgba(0,0,0,0.4);
   }

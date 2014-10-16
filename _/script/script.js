@@ -16,7 +16,7 @@ $(function() {
 });
 
 // instag feed
-var feed = new Instafeed({
+/*var feed = new Instafeed({
     get: 'tagged',
     tagName: 'startuppingpong',
     clientId: 'b9eea1a951e24c54bbfd46e8360119f1',
@@ -24,7 +24,7 @@ var feed = new Instafeed({
     sortBy: 'most-recent',
     limit: '40'
 });
-feed.run();
+feed.run();*/
 
 // facebook embed
 (function(d, s, id) {

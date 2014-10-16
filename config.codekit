@@ -26,7 +26,7 @@
 		},
 	"\/_\/script\/source\/insta.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/insta.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/insta-min.js",
@@ -715,39 +715,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/IMG_7257.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.6e+06,
-		"inputAbbreviatedPath": "\/images\/IMG_7257.JPG",
-		"outputAbbreviatedPath": "\/images\/IMG_7257.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/IMG_7385.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.61266e+06,
-		"inputAbbreviatedPath": "\/images\/IMG_7385.JPG",
-		"outputAbbreviatedPath": "\/images\/IMG_7385.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/images\/IMG_7398.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.57633e+06,
-		"inputAbbreviatedPath": "\/images\/IMG_7398.JPG",
-		"outputAbbreviatedPath": "\/images\/IMG_7398.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/instag.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -912,26 +879,20 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/insta.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
-			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
-			"position": 6,
+			"position": 5,
 			"type": 0
 			}
 		]

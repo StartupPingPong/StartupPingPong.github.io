@@ -2,204 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18027",
 "files": {
-	"\/_\/content\/1event\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 53449,
-		"inputAbbreviatedPath": "\/_\/content\/1event\/1.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/1event\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/1event\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114609,
-		"inputAbbreviatedPath": "\/_\/content\/1event\/2.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/1event\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/1event\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89429,
-		"inputAbbreviatedPath": "\/_\/content\/1event\/3.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/1event\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/1event\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 116667,
-		"inputAbbreviatedPath": "\/_\/content\/1event\/4.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/1event\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/2event\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 131090,
-		"inputAbbreviatedPath": "\/_\/content\/2event\/1.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/2event\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/2event\/2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 148017,
-		"inputAbbreviatedPath": "\/_\/content\/2event\/2.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/2event\/2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/2event\/3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 105177,
-		"inputAbbreviatedPath": "\/_\/content\/2event\/3.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/2event\/3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/2event\/4.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 89758,
-		"inputAbbreviatedPath": "\/_\/content\/2event\/4.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/2event\/4.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/3event\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 67922,
-		"inputAbbreviatedPath": "\/_\/content\/3event\/1.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/3event\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/fb.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6154,
-		"inputAbbreviatedPath": "\/_\/content\/fb.png",
-		"outputAbbreviatedPath": "\/_\/content\/fb.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/IMG_7257.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.6e+06,
-		"inputAbbreviatedPath": "\/_\/content\/IMG_7257.JPG",
-		"outputAbbreviatedPath": "\/_\/content\/IMG_7257.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/IMG_7385.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.61266e+06,
-		"inputAbbreviatedPath": "\/_\/content\/IMG_7385.JPG",
-		"outputAbbreviatedPath": "\/_\/content\/IMG_7385.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/IMG_7398.JPG": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.57633e+06,
-		"inputAbbreviatedPath": "\/_\/content\/IMG_7398.JPG",
-		"outputAbbreviatedPath": "\/_\/content\/IMG_7398.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/logo-in-place.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19660,
-		"inputAbbreviatedPath": "\/_\/content\/logo-in-place.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/logo-in-place.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/suppsevent1-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 728988,
-		"inputAbbreviatedPath": "\/_\/content\/suppsevent1-1.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/suppsevent1-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/suppsevent1-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_\/content\/suppsevent1-2.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/suppsevent1-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/suppsevent1-3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/_\/content\/suppsevent1-3.jpg",
-		"outputAbbreviatedPath": "\/_\/content\/suppsevent1-3.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_\/content\/win.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8661,
-		"inputAbbreviatedPath": "\/_\/content\/win.png",
-		"outputAbbreviatedPath": "\/_\/content\/win.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_\/script\/script.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -210,6 +12,17 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
+		},
+	"\/_\/script\/source\/bind-polyfill.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/script\/source\/bind-polyfill.js",
+		"outputAbbreviatedPath": "\/_\/script\/source\/min\/bind-polyfill-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/_\/script\/source\/insta.js": {
 		"fileType": 64,
@@ -266,27 +79,16 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/script\/source\/min\/modernizr-min.js": {
+	"\/_\/script\/source\/smooth-scroll.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/min\/modernizr-min.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/min\/modernizr-min-min.js",
+		"inputAbbreviatedPath": "\/_\/script\/source\/smooth-scroll.js",
+		"outputAbbreviatedPath": "\/_\/script\/source\/min\/smooth-scroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
-		},
-	"\/_\/script\/source\/modernizr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/modernizr.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/modernizr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
 		},
 	"\/_\/style\/_layout.scss": {
 		"createSourceMap": 0,
@@ -528,6 +330,259 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/images\/1event\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53449,
+		"inputAbbreviatedPath": "\/images\/1event\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/1event\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1event\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 114609,
+		"inputAbbreviatedPath": "\/images\/1event\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/1event\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1event\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89429,
+		"inputAbbreviatedPath": "\/images\/1event\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/1event\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/1event\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116667,
+		"inputAbbreviatedPath": "\/images\/1event\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/1event\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2event\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 131090,
+		"inputAbbreviatedPath": "\/images\/2event\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/2event\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2event\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148017,
+		"inputAbbreviatedPath": "\/images\/2event\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/2event\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2event\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105177,
+		"inputAbbreviatedPath": "\/images\/2event\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/2event\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/2event\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89758,
+		"inputAbbreviatedPath": "\/images\/2event\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/2event\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3event\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67922,
+		"inputAbbreviatedPath": "\/images\/3event\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/3event\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/comp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2358,
+		"inputAbbreviatedPath": "\/images\/comp.png",
+		"outputAbbreviatedPath": "\/images\/comp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/date.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5738,
+		"inputAbbreviatedPath": "\/images\/date.png",
+		"outputAbbreviatedPath": "\/images\/date.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6154,
+		"inputAbbreviatedPath": "\/images\/fb.png",
+		"outputAbbreviatedPath": "\/images\/fb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/img.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520688,
+		"inputAbbreviatedPath": "\/images\/img.jpg",
+		"outputAbbreviatedPath": "\/images\/img.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/IMG_7257.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.6e+06,
+		"inputAbbreviatedPath": "\/images\/IMG_7257.JPG",
+		"outputAbbreviatedPath": "\/images\/IMG_7257.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/IMG_7385.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.61266e+06,
+		"inputAbbreviatedPath": "\/images\/IMG_7385.JPG",
+		"outputAbbreviatedPath": "\/images\/IMG_7385.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/IMG_7398.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.57633e+06,
+		"inputAbbreviatedPath": "\/images\/IMG_7398.JPG",
+		"outputAbbreviatedPath": "\/images\/IMG_7398.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/instag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8115,
+		"inputAbbreviatedPath": "\/images\/instag.png",
+		"outputAbbreviatedPath": "\/images\/instag.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logo-in-place.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19660,
+		"inputAbbreviatedPath": "\/images\/logo-in-place.jpg",
+		"outputAbbreviatedPath": "\/images\/logo-in-place.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/suppsevent1-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 728988,
+		"inputAbbreviatedPath": "\/images\/suppsevent1-1.jpg",
+		"outputAbbreviatedPath": "\/images\/suppsevent1-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/suppsevent1-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/suppsevent1-2.jpg",
+		"outputAbbreviatedPath": "\/images\/suppsevent1-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/suppsevent1-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/suppsevent1-3.jpg",
+		"outputAbbreviatedPath": "\/images\/suppsevent1-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/table.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1772,
+		"inputAbbreviatedPath": "\/images\/table.png",
+		"outputAbbreviatedPath": "\/images\/table.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/win.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8661,
+		"inputAbbreviatedPath": "\/images\/win.png",
+		"outputAbbreviatedPath": "\/images\/win.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -536,6 +591,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/modernizr.js",
+		"outputAbbreviatedPath": "\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 0
 		},
 	"\/README.html": {
 		"fileType": 8192,
@@ -592,26 +658,38 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/insta.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/bind-polyfill.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/smooth-scroll.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/insta.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
 			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
+			"position": 6,
 			"type": 0
 			}
 		]

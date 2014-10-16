@@ -26,7 +26,6 @@ var feed = new Instafeed({
 feed.run();
 
 // fb embed
-
 (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -34,3 +33,14 @@ feed.run();
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=504797676310031&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));
+
+
+// Smooth scroll
+smoothScroll.init({
+  speed: 1000,
+  easing: 'easeInOutCubic',
+  offset: 0,
+  updateURL: true,
+  callbackBefore: function ( toggle, anchor ) {},
+  callbackAfter: function ( toggle, anchor ) {}
+});

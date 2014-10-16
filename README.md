@@ -1,6 +1,6 @@
 SUPP
 =============
 
-Directory for Startup Ping Pong web.
+Files of SUPP website startuppingpong.io
 
 

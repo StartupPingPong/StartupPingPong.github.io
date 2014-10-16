@@ -48,7 +48,11 @@ section {
       margin: 0px;
       padding: 0px;
       line-height: 0px;
-      @media (max-width: 800px){
+      @media (max-width: 1170px){
+        display: block!important;
+        width: 20%;
+      }
+      @media (max-width: 600px){
         display: block!important;
         width: 25%;
       }

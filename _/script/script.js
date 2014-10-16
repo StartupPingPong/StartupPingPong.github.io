@@ -21,7 +21,8 @@ var feed = new Instafeed({
     tagName: 'startuppingpong',
     clientId: 'b9eea1a951e24c54bbfd46e8360119f1',
     resolution: 'standard_resolution',
-    sortBy: 'most-recent'
+    sortBy: 'most-recent',
+    limit: '60'
 });
 feed.run();
 

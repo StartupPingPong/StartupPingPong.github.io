@@ -230,6 +230,15 @@ main#main {
   display: block!important;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  main#main {
+    display: none!important;
+  }
+  #wrong-browser {
+    display: block!important;
+  }
+}
+
 /*
 #chrome-user {
   position: absolute;

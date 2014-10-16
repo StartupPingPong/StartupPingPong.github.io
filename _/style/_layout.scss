@@ -16,6 +16,10 @@ section {
   z-index: 9999;
 }
 
+body {
+  min-width: 420px!important;
+}
+
 main#main, header, footer {
   min-width: 420px;
 }

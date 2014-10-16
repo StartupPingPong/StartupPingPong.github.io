@@ -22,7 +22,7 @@ main#main, header, footer {
 
 #header-bg {
   overflow: hidden;
-  height: $headerHeight;
+  height: 72vh;
   position: absolute;
   left: 0;
   top: 0;
@@ -232,6 +232,12 @@ main {
 
 main#main {
   display: block!important;
+}
+
+.touch {
+  main#main {
+    display: none!important;
+  }
 }
 
 /*

@@ -239,6 +239,15 @@ main#main {
   }
 }
 
+.ie {
+  main#main {
+    display: none!important;
+  }
+  #wrong-browser {
+    display: block!important;
+  }
+}
+
 /*
 #chrome-user {
   position: absolute;

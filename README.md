@@ -1,12 +1,6 @@
-Lumbr
+SUPP
 =============
 
-Lumber is a front-end framework.
+Directory for Startup Ping Pong web.
 
 
-How to use
--------
-
-Main layout settings: _settings.scss
-
-Your styling: _layout.scss

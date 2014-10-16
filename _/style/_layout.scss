@@ -1,4 +1,6 @@
-$headerHeight: 70vh;
+$headerHeight: 600px;
+
+$ease: all 200ms ease;
 
 #instafeed {
     z-index: 999;
@@ -14,6 +16,21 @@ svg {
 
 section {
   z-index: 9999;
+}
+
+#fb-like-wrapper {
+  opacity: 0.4;
+  position: absolute;
+  left: fnGetSpacing(100);
+  top: fnGetSpacing(100);
+  z-index: 9999;
+  transition: all 200ms ease;
+  &:hover {
+    transition: all 200ms ease;
+    opacity: 1;
+  }
+  .fb-like {
+  }
 }
 
 #header-bg {
@@ -48,13 +65,13 @@ section {
   }
   #gradient {
     position: absolute;
-    height: 70.2vh;
+    height: $headerHeight;
     width: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 75%,rgba(0,0,0,1) 100%);
   }
   #colorfill {
     position: absolute;
-    height: 70.2vh;
+    height: $headerHeight;
     width: 100%;
     background: rgba(0,0,0,0.4);
   }
@@ -104,11 +121,21 @@ section {
     margin-left: fnGetSpacing(75)!important;
     margin-right: fnGetSpacing(75)!important;
     margin-bottom: fnGetSpacing(75)!important;
-    width: 100%;
+    width: 90%;
     font-size: 120%;
+    tr {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      transition: $ease;
+      &:hover {
+        transition: $ease; 
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+      }
+    }
     td {
-      width: 200px;
       border-bottom: #fff;
+      &:last-child {
+        text-align: right;
+      }
     }
   }
   .cd-timeline-content {

@@ -1,14 +1,19 @@
 // fit embedded videos
-$("body").fitVids(); 
+//$("body").fitVids(); 
 
 // smooth scroll
-smoothScroll.init({
+/*smoothScroll.init({
   speed: 1000,
   easing: 'easeInOutCubic',
   offset: 0,
   updateURL: true,
   callbackBefore: function ( toggle, anchor ) {},
   callbackAfter: function ( toggle, anchor ) {}
+});*/
+
+// background slider 
+$(function() {
+  cbpBGSlideshow.init();
 });
 
 // tracking

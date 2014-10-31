@@ -26,7 +26,7 @@
 		},
 	"\/_\/script\/source\/cbpBGSlideshow.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/cbpBGSlideshow.min-min.js",
@@ -81,7 +81,7 @@
 		},
 	"\/_\/script\/source\/jquery.imagesloaded.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.imagesloaded.min-min.js",
@@ -968,6 +968,20 @@
 	],
 "lastSavedByUser": "Fredric Castelius",
 "manualImportLinks": {
+	"\/_\/script\/script.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
+			"position": 1,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

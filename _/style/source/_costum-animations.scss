@@ -232,7 +232,8 @@
 #mc_embed_signup { 
     @include animate();
     @include fadeIn();
-    animation-delay: 5s;
+    animation-delay: 4s;
+    animation-duration: 1s;
 }
 
 #built-for {

@@ -460,6 +460,9 @@ footer {
   clear: both;
   margin: fnGetSpacing(500) 0 fnGetSpacing(100) 0;
   font-size: 90%;
+  @media (max-width: 600px){
+    width: 90%;
+  }
   div {
     background: #000;
     border: 1px solid rgba(255, 255, 255, 0.15);

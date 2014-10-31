@@ -386,7 +386,7 @@ section {
     padding: 0!important;
     background: none;
     .cd-timeline-block {
-      margin-left: 15px!important;;
+      //margin-left: 15px!important;;
     }
     .cd-timeline-img {
       display: none!important;;
@@ -667,6 +667,8 @@ span.cbp-biprev:before {
     padding: 0!important;
     .cd-timeline-block {
       margin: 0!important;
+      margin-left: 5%!important; 
+      margin-right: 5%!important; 
       padding: 0!important;
     }
   }

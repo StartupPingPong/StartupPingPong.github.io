@@ -26,7 +26,7 @@
 		},
 	"\/_\/script\/source\/cbpBGSlideshow.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/cbpBGSlideshow.min-min.js",
@@ -59,7 +59,7 @@
 		},
 	"\/_\/script\/source\/jquery.fittext.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.fittext-min.js",
@@ -81,7 +81,7 @@
 		},
 	"\/_\/script\/source\/jquery.imagesloaded.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.imagesloaded.min-min.js",
@@ -989,32 +989,14 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
-			"position": 4,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
-			"position": 5,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
-			"position": 6,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
 			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
-			"position": 7,
+			"position": 4,
 			"type": 0
 			}
 		]

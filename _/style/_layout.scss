@@ -185,21 +185,32 @@ svg {
   width: 100%;
   z-index: 9999;
   @media (max-width: 768px) {
-    display: none;
+    top: 400px;
   }
   form {
     margin: auto;
     max-width: 250px;
     padding-left: 8px;
+    @media (max-width: 768px) {
+      max-width: 95%;
+    }
     #input {
       &:before {
         transition: 400ms all ease;
         opacity: 0;
         content: "Your e-mail:";
         color: #999!important;
-        top: 33px;
-        left: -98px;
         position: relative;
+        @media (max-width: 768px) {
+          top: -10px;
+          left: 0;
+          content: "Your e-mail:";
+          opacity: 1;
+          width: 100%;
+          float: left;
+          font-style: italic;
+          text-align: center;
+        }
       }
       &:after {
         transition: 400ms all ease;
@@ -209,6 +220,13 @@ svg {
         top: -33px;
         left: 243px;
         position: relative;
+        @media (max-width: 768px) { 
+          opacity: 1;
+          top: 8px;
+          left: 10px!important;
+          content: "Join »";
+          display: none;
+        }
       }
       &:hover:after {
         transition: 400ms all ease;
@@ -281,7 +299,7 @@ section {
     td {
       border-bottom: #fff;
       &:last-child {
-        text-align: right;
+        text-align: center;
       }
     }
   }

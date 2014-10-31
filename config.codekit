@@ -598,12 +598,12 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 132064,
+		"initialSize": 200436,
 		"inputAbbreviatedPath": "\/images\/1.jpg",
 		"outputAbbreviatedPath": "\/images\/1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/1event\/1.jpg": {
 		"fileType": 16384,
@@ -658,7 +658,7 @@
 		"outputAbbreviatedPath": "\/images\/2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/2event\/1.jpg": {
 		"fileType": 16384,
@@ -704,6 +704,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106876,
+		"inputAbbreviatedPath": "\/images\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/3event\/1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -724,7 +735,7 @@
 		"outputAbbreviatedPath": "\/images\/4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/5.jpg": {
 		"fileType": 16384,
@@ -735,51 +746,7 @@
 		"outputAbbreviatedPath": "\/images\/5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/6.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 140024,
-		"inputAbbreviatedPath": "\/images\/6.jpg",
-		"outputAbbreviatedPath": "\/images\/6.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/7.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/7.jpg",
-		"outputAbbreviatedPath": "\/images\/7.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/8.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 360564,
-		"inputAbbreviatedPath": "\/images\/8.jpg",
-		"outputAbbreviatedPath": "\/images\/8.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/9.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 200436,
-		"inputAbbreviatedPath": "\/images\/9.jpg",
-		"outputAbbreviatedPath": "\/images\/9.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/built-for-chrome.png": {
 		"fileType": 32768,
@@ -790,7 +757,7 @@
 		"outputAbbreviatedPath": "\/images\/built-for-chrome.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/chrome-icon.png": {
 		"fileType": 32768,
@@ -801,7 +768,7 @@
 		"outputAbbreviatedPath": "\/images\/chrome-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/comp.png": {
 		"fileType": 32768,
@@ -834,7 +801,7 @@
 		"outputAbbreviatedPath": "\/images\/fb-big.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/fb-img.jpg": {
 		"fileType": 16384,

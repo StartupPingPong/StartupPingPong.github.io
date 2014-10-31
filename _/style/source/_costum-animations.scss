@@ -23,7 +23,7 @@
       animation-name: fadeIn;
     }
   }
-  
+
   /*#firefox-user + main#wrong-browser + main#main {
     #header-bg {
       #instafeed {
@@ -217,7 +217,7 @@
   section {
     @include animate();
     @include fadeInUp();
-    animation-delay: 4.5s;
+    animation-delay: 5.5s;
   }
 
 @keyframes fadeInOpacity {

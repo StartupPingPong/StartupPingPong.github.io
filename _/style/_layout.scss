@@ -413,19 +413,6 @@ section {
   padding: 0 5% 0 5%!important;
 }
 
-
-@media (max-width: 640px){
-  .cd-container {
-    width: 100%!important;
-      margin: 0!important;
-      padding: 0!important;
-    .cd-timeline-block {
-      margin: 0!important;
-      padding: 0!important;
-    }
-  }
-}
-
 .svg-content {
   text-align: center!important;
   width: 250px!important;
@@ -671,6 +658,18 @@ span.cbp-biprev:before {
 
 .no-js.backgroundsize .cbp-bislideshow li:first-child img {
   display: block;
+}
+
+@media (max-width: 640px){
+  #cd-container {
+    width: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+    .cd-timeline-block {
+      margin: 0!important;
+      padding: 0!important;
+    }
+  }
 }
 
  

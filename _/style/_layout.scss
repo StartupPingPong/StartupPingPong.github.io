@@ -665,12 +665,11 @@ span.cbp-biprev:before {
     width: 100%!important;
     margin: 0!important;
     padding: 0!important;
-    .cd-timeline-block {
-      margin: 0!important;
-      margin-left: 5%!important; 
-      margin-right: 5%!important; 
-      padding: 0!important;
-    }
+  }
+  .cd-timeline-block {
+    margin-left: 10px!important; 
+    margin-right: 10px!important; 
+    padding: 0!important;
   }
 }
 

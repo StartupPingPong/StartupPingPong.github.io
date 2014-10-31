@@ -498,6 +498,9 @@ main#main {
   background-position: center center;
   position: fixed;
   top: 0;
+  @media (max-width: 1170px){ 
+    position: absolute;
+  }
 }
 
 /* ...and hide the images */

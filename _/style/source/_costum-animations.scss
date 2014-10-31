@@ -6,6 +6,7 @@
     animation-name: fadeIn;
     animation-delay: 5s;
   }
+
   #header-bg {
     #instafeed {
       @include animate();
@@ -218,8 +219,6 @@
     animation-delay: 4.5s;
   }
 
-}
-
 @keyframes fadeInOpacity {
   0% {
     opacity: 0;
@@ -239,5 +238,7 @@
     @include animate();
     @include fadeIn();
     animation-delay: 6s;
+}
+
 }
  

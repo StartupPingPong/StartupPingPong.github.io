@@ -2,6 +2,12 @@ $headerHeight: 600px;
 
 $ease: all 200ms ease;
 
+body {
+  height: auto!important;
+  margin: 0!important;
+  padding: 0!important;
+}
+
 #instafeed {
     z-index: 999;
 }
@@ -18,7 +24,45 @@ section {
   z-index: 9999;
 }
 
-#fb-like-wrapper {
+#built-for {
+  z-index: 9999;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #111;
+  transition: $ease;
+  width: 120px;
+  opacity: 0.8;
+  &:hover {
+    //background: rgba(255, 255, 255, 0.92);
+    transition: $ease;
+    opacity: 1;
+    a {
+      color: #111;
+    }
+  }
+  div {
+    margin: 6px 40px 6px 40px;
+    float: left;
+    a {
+      color: #fff;
+    }
+    p {
+      float: left;
+      margin: 0 fnGetSpacing(15) 0 0;
+      padding: 0;
+      font-size: 80%;
+    }
+    img {
+      width: 20px;
+      float: right;
+      //filter: invert(1);
+      transition: $ease;
+    }
+  }
+}
+
+/*#fb-like-wrapper {
   opacity: 0.4;
   position: absolute;
   left: fnGetSpacing(100);
@@ -31,11 +75,12 @@ section {
   }
   .fb-like {
   }
-}
+}*/
 
 #header-bg {
   overflow: hidden;
   height: $headerHeight;
+  width: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -127,9 +172,70 @@ svg {
   }
 }
 
+#mc_embed_signup {
+  top: $headerHeight * 0.82;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  form {
+    margin: auto;
+    max-width: 250px;
+    padding-left: 8px;
+    #input {
+      &:before {
+        transition: 400ms all ease;
+        opacity: 0;
+        content: "Your e-mail:";
+        color: #999!important;
+        top: 33px;
+        left: -98px;
+        position: relative;
+      }
+      &:after {
+        transition: 400ms all ease;
+        opacity: 0;
+        content: "+ Enter";
+        color: #999!important;
+        top: -33px;
+        left: 243px;
+        position: relative;
+      }
+      &:hover:after {
+        transition: 400ms all ease;
+        opacity: 1;
+      }
+      &:hover:before {
+        transition: 400ms all ease;
+        opacity: 1;
+      }
+    }
 
-
-
+    input {
+      background: transparent;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+      text-align: center;
+      &:focus + input[type="submit"] {
+        //visibility: visible!important;
+        //opacity: 1;
+        //transition: 400ms all ease;
+        //transform: translateY(40px);
+      }
+      &:hover {
+        border: 1px solid rgba(255, 255, 255, 0.5);
+      }
+      &:focus {
+        border: 1px solid rgba(255, 255, 255, 0.8);
+      }
+    }
+    input[type="submit"] {
+      visibility: hidden;
+      opacity: 0px;
+      transition: 400ms all ease;
+      transform: translateY(0);
+    }
+  }
+  z-index: 9999;
+}
 
 section {
   top: $headerHeight * 0.85;
@@ -222,6 +328,14 @@ section {
 .cd-timeline-content {
   .svg-content-wrapper {
   }
+  a {
+    font-weight: 300;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    &:hover {
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+    }
+  }
 }
 
 .svg-content {
@@ -287,6 +401,8 @@ main {
 
 main#main {
   display: block!important;
+  float: left;
+  width: 100%;
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
@@ -338,4 +454,137 @@ main#main {
   display: block!important;
 }
 */
+
+// bg slider
+
+@font-face {
+  font-family: 'entypo';
+  src:url('../fonts/controls/entypo.eot');
+  src:url('../fonts/controls/entypo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/controls/entypo.woff') format('woff'),
+    url('../fonts/controls/entypo.ttf') format('truetype'),
+    url('../fonts/controls/entypo.svg#entypo') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cbp-bislideshow {
+  list-style: none;
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+.cbp-bislideshow li {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -0.5%;
+  left: -0.5%;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+/* If background-size supported we'll add the images to the background of the li */
+
+.backgroundsize .cbp-bislideshow li {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* ...and hide the images */
+.backgroundsize .cbp-bislideshow li img {
+  display: none;
+}
+
+.cbp-bislideshow li img {
+  display: block;
+  width: 100%;
+  position: fixed;
+}
+
+.cbp-bicontrols {
+  position: fixed;
+  width: 300px;
+  height: 100px;
+  margin: -50px 0 0 -150px;
+  top: 50%;
+  left: 50%;
+}
+
+.cbp-bicontrols span {
+  float: left;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cbp-bicontrols span:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  font-family: 'entypo';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 100px;
+  font-size: 80px;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  opacity: 0.7;
+}
+
+.cbp-bicontrols span:hover:before {
+  opacity: 1;
+}
+
+.cbp-bicontrols span:active:before {
+  top: 2px;
+}
+
+span.cbp-biplay:before {
+  content: "\e002";
+}
+
+span.cbp-bipause:before {
+  content: "\e003";
+}
+
+span.cbp-binext:before {
+  content: "\e000";
+}
+
+span.cbp-biprev:before {
+  content: "\e001";
+}
+
+.cbp-bicontrols span.cbp-binext {
+  float: right;
+}
+
+/* Fallback */
+
+.no-js.no-backgroundsize .cbp-bislideshow li:first-child {
+  opacity: 1;
+}
+
+.no-js.backgroundsize .cbp-bislideshow li:first-child img {
+  display: block;
+}
+
  

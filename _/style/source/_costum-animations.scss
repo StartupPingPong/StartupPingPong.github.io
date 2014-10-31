@@ -1,6 +1,11 @@
 
 @media(min-width: 768px){
 
+  #cbp-bislideshow {
+    @include animate();
+    animation-name: fadeIn;
+    animation-delay: 5s;
+  }
   #header-bg {
     #instafeed {
       @include animate();
@@ -222,5 +227,17 @@
   100% {
     opacity: 0.4;
   }
+}
+
+#mc_embed_signup { 
+    @include animate();
+    @include fadeIn();
+    animation-delay: 5s;
+}
+
+#built-for {
+    @include animate();
+    @include fadeIn();
+    animation-delay: 6s;
 }
  

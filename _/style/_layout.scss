@@ -416,9 +416,12 @@ section {
 
 @media (max-width: 640px){
   .cd-container {
-    width: 96%!important;
+    width: 100%!important;
+      margin: 0!important;
+      padding: 0!important;
     .cd-timeline-block {
-      margin-right: 5%;
+      margin: 0!important;
+      padding: 0!important;
     }
   }
 }

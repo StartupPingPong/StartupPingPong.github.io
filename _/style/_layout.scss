@@ -350,10 +350,19 @@ section {
     margin: 0!important;
     padding: 0!important;
     .cd-timeline-block {
-      margin-left: 15px;
+      margin-left: 15px!important;;
+    }
+    .cd-timeline-img {
+      display: none!important;;
+    }
+    .cd-timeline-content::before {
+      display: none!important;;
     }
     &:before {
-      display: none;
+      display: none!important;;
+    }
+    .cd-timeline-content {
+      margin-left: 0!important;
     }
   }
 }

@@ -15,7 +15,7 @@
 		},
 	"\/_\/script\/source\/bind-polyfill.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/bind-polyfill.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/bind-polyfill-min.js",
@@ -48,7 +48,7 @@
 		},
 	"\/_\/script\/source\/jquery-1.11.0.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.0.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery-1.11.0.min-min.js",
@@ -70,7 +70,7 @@
 		},
 	"\/_\/script\/source\/jquery.fitvids.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.fitvids-min.js",
@@ -92,7 +92,7 @@
 		},
 	"\/_\/script\/source\/main.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/main.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/main-min.js",
@@ -103,7 +103,7 @@
 		},
 	"\/_\/script\/source\/smooth-scroll.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/smooth-scroll.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/smooth-scroll-min.js",
@@ -968,38 +968,6 @@
 	],
 "lastSavedByUser": "Fredric Castelius",
 "manualImportLinks": {
-	"\/_\/script\/script.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.0.min.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/bind-polyfill.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/smooth-scroll.js",
-			"position": 2,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/main.js",
-			"position": 3,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
-			"position": 4,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

@@ -136,7 +136,7 @@ header {
   @include wrapper();
   @include middle();
   @media (max-width: 640px) {
-    height: 500px;
+    height: 440px;
     svg {
       left: 0!important;
     }

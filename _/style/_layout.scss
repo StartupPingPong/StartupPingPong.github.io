@@ -551,7 +551,7 @@ main#main {
   -moz-background-size: cover;
   background-size: cover;
   background-position: center center;
-  position: fixed;
+  position: absolute;
   top: 0;
   @media (max-width: 1170px){ 
     position: absolute;

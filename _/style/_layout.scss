@@ -136,7 +136,7 @@ header {
   @include wrapper();
   @include middle();
   @media (max-width: 640px) {
-    height: 480px;
+    height: 420px;
     svg {
       left: 0!important;
     }
@@ -412,7 +412,10 @@ section {
 
 @media (max-width: 640px){
   .cd-container {
-    width: 95%!important;
+    width: 100%!important;
+    .cd-timeline-block {
+      margin-right: 5%;
+    }
   }
 }
 

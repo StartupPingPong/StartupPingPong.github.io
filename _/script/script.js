@@ -1,5 +1,5 @@
 // fit embedded videos
-//$("body").fitVids(); 
+$("body").fitVids(); 
 
 // smooth scroll
 /*smoothScroll.init({

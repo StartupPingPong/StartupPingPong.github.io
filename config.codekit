@@ -57,6 +57,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_\/script\/source\/jquery-1.11.1.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.1.min.js",
+		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery-1.11.1.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/_\/script\/source\/jquery.fittext.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -70,7 +81,7 @@
 		},
 	"\/_\/script\/source\/jquery.fitvids.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.fitvids-min.js",
@@ -971,14 +982,26 @@
 	"\/_\/script\/script.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.1.min.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
 			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
+			"position": 3,
 			"type": 0
 			}
 		]

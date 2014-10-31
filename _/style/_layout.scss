@@ -390,11 +390,13 @@ section {
     .cd-timeline-content::before {
       display: none!important;;
     }
-    &:before {
-      display: none!important;;
-    }
     .cd-timeline-content {
       margin-left: 0!important;
+    }
+  }
+  @media (max-width: 1280px) {
+    &:before {
+      display: none!important;
     }
   }
 }

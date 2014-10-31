@@ -345,6 +345,13 @@ section {
   }
 }
 
+#cd-timeline {
+  @media (max-width: 640px){
+    margin: 0!important;
+    padding: 0!important;
+  }
+}
+
 .svg-content {
   text-align: center!important;
   width: 250px!important;

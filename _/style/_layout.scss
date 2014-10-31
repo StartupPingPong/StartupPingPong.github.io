@@ -201,6 +201,8 @@ svg {
         content: "Your e-mail:";
         color: #999!important;
         position: relative;
+        top: 33px;
+        left: -96px;
         @media (max-width: 768px) {
           top: -10px;
           left: 0;

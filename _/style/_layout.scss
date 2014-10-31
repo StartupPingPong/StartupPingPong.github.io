@@ -459,6 +459,9 @@ footer {
     margin: auto;
     width: 300px;
     padding: fnGetSpacing(100) fnGetSpacing(40) fnGetSpacing(100) fnGetSpacing(40);
+    @media (max-width: 600px){
+      width: 100%;
+    }
   }
   a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;

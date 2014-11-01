@@ -248,7 +248,10 @@
       animation-delay: 6s;
   }*/
 
-  #bg {
+  
+}
+
+#bg {
     @include animate();
     @include fadeIn();
     animation-delay: 0; 
@@ -260,7 +263,28 @@
       animation-delay: 200ms;
     }
   }
-  body.contact-page {
+  body.wall-page {
+    #instafeed {
+      img {    
+      }
+      img:nth-child(even) {
+
+        @include animate();
+        @include fadeIn();
+        animation-delay: 50ms; 
+      }
+      img:nth-child(odd) {
+        @include animate();
+        @include fadeIn();
+        animation-delay: 200ms; 
+
+      }
+      img:nth-child(3n+0) {
+        @include animate();
+        @include fadeIn();
+        animation-delay: 400ms; 
+      }
+    }
     section {
       @include animate();
       @include fadeIn();
@@ -268,5 +292,15 @@
     }
   }
 
-}
+  body.contact-page {
+    section {
+      @include animate();
+      @include fadeIn();
+      animation-delay: 200ms;
+    }
+  }
+  body.play-page {
+    iframe {
+    }
+  }
  

@@ -152,7 +152,7 @@ nav#main-menu {
 
 // polorid & contact
 
-.polorid-page, .contact-page {
+.polorid-page, .contact-page, .wall-page {
   #header-bg {
     z-index: 0;
     overflow: hidden;
@@ -161,34 +161,6 @@ nav#main-menu {
     position: absolute;
     left: 0;
     top: 0;
-    #instafeed {
-      a {
-        float: left; 
-        width: 16.6666667%;
-        line-height: 0;
-        border: 0px;
-        margin: 0px;
-        padding: 0px;
-        line-height: 0px;
-        @media (max-width: 1170px){
-          display: block!important;
-          width: 20%;
-        }
-        @media (max-width: 600px){
-          display: block!important;
-          width: 25%;
-        }
-        &:hover {
-          border: 0px;
-        }
-        img {
-          line-height: 0px;
-          border: 0px;
-          margin: 0px;
-          padding: 0px;
-        }
-      }
-    }
     #gradient {
       position: absolute;
       height: 100vh;
@@ -1183,5 +1155,87 @@ body.contact-page {
   }  
 }
 
+.border {
+  height: 40px;
+  background: #000;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.play-page {
+  iframe {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+// the wall
+
+.wall-page {
+  #header-bg {
+    position: fixed;
+  }
+   section {
+    z-index: 9999!important;
+    top: 0!important;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+    float: left;
+    @include wrapper();
+    @include center();
+    @include middle();
+    div {
+      text-align: center;
+      h1 {
+        margin: 0 0 fnGetSpacing(25) 0;
+        @media (max-width: 767px){
+          font-size: 200%;
+          margin: 0 0 fnGetSpacing(30) 0;
+        }
+      }
+      h6 {
+        font-weight: normal;
+        font-size: 90%;
+        letter-spacing: 0;
+        @media (max-width: 767px){ 
+          font-size: 80%;
+        }
+      }
+    }
+  }  
+}
+
+#instafeed {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  img {
+    float: left; 
+    width: 25%;
+    line-height: 0;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    line-height: 0px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    @media (max-width: 1170px){
+      display: block!important;
+      width: 33.333%;
+    }
+    @media (max-width: 600px){
+      display: block!important;
+      width: 50%;
+    }
+    &:hover {
+      border: 0px;
+    }
+  }
+}
 
  

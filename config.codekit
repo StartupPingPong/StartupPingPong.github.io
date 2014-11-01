@@ -953,6 +953,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/supp-logo-black.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152958,
+		"inputAbbreviatedPath": "\/images\/supp-logo-black.jpg",
+		"outputAbbreviatedPath": "\/images\/supp-logo-black.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/suppsevent1-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

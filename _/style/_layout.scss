@@ -150,6 +150,60 @@ nav#main-menu {
   }
 }
 
+// polorid & contact
+
+.polorid-page, .contact-page {
+  #header-bg {
+    z-index: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    #instafeed {
+      a {
+        float: left; 
+        width: 16.6666667%;
+        line-height: 0;
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+        line-height: 0px;
+        @media (max-width: 1170px){
+          display: block!important;
+          width: 20%;
+        }
+        @media (max-width: 600px){
+          display: block!important;
+          width: 25%;
+        }
+        &:hover {
+          border: 0px;
+        }
+        img {
+          line-height: 0px;
+          border: 0px;
+          margin: 0px;
+          padding: 0px;
+        }
+      }
+    }
+    #gradient {
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 75%,rgba(0,0,0,1) 100%);
+    }
+    #colorfill {
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      background: rgba(0,0,0,0.4);
+    }
+  }
+}
+
 header {
   width: 100%;
   height: $headerHeight;
@@ -437,6 +491,18 @@ section {
   padding: 0 5% 0 5%!important;
 }
 
+.svg-content-wrapper {
+  text-align: center;
+  img {
+    margin: auto;
+    filter: invert(0);
+    transition: $ease;
+    &:hover {
+      filter: invert(1);
+      transition: $ease;
+    }
+  }
+}
 .svg-content {
   text-align: center!important;
   width: 250px!important;

@@ -13,11 +13,11 @@ body {
 }
 
 #gradient, #colorfill {
-    z-index: 9998;
+    z-index: 10;
 }
 
 svg {
-    z-index: 9999;
+    z-index: 10;
 }
 
 section {
@@ -28,20 +28,20 @@ nav#main-menu {
   position: absolute;
   left: fnGetSpacing(100);
   top: fnGetSpacing(100);
-  z-index: 9999!important;
-  ul {
-    .main-menu-current {
-      a {
-        border-bottom: 1px solid #fff;
-      }
-    }
-    li {
-      float: left;
-      margin-right: fnGetSpacing(100);
-      a {
-
-      }
-    }
+  z-index: 9999;
+  a {
+    margin-right: fnGetSpacing(50);
+  }
+  .main-menu-current {
+    border-bottom: 1px solid #fff;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    left: 0;
+    text-align: center;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
 }
 

@@ -1041,6 +1041,9 @@ figure.photostack-current::after {
     padding: 75px;
     margin: 0;
     opacity: 0.75!important;
+    @media (max-width: 767px){ 
+      padding: 40px;
+    }
     a {
       padding: 0;
       margin: 0;
@@ -1098,13 +1101,17 @@ body.contact-page {
         margin: 0 0 fnGetSpacing(25) 0;
 
         @media (max-width: 767px){
-          font-size: 120%;
+          font-size: 200%;
+          margin: 0 0 fnGetSpacing(30) 0;
         }
       }
       h6 {
         font-weight: normal;
         font-size: 90%;
         letter-spacing: 0;
+        @media (max-width: 767px){ 
+          font-size: 80%;
+        }
       }
     }
   }  

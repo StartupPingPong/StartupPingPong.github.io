@@ -582,7 +582,7 @@ main#main {
 .cbp-bislideshow li {
 
   @media (max-width: 767px){
-    width: 200%!important;
+    width: 250%!important;
   }
   position: absolute;
   width: 100%;
@@ -616,9 +616,9 @@ main#main {
   width: 100%;
   position: fixed;
   @media (max-width: 767px){
-    width: 200%!important;
+    width: 250%!important;
     max-width: none;
-    left: -100%;
+    left: -125%;
   }
 }
 

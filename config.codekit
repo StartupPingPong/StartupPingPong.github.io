@@ -13,17 +13,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
-	"\/_\/script\/source\/bind-polyfill.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/bind-polyfill.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/bind-polyfill-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_\/script\/source\/cbpBGSlideshow.min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -46,34 +35,12 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/script\/source\/jquery-1.11.0.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.0.min.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery-1.11.0.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_\/script\/source\/jquery-1.11.1.min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/jquery-1.11.1.min.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery-1.11.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/script\/source\/jquery.fittext.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/jquery.fittext.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/jquery.fittext-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -101,27 +68,16 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_\/script\/source\/main.js": {
+	"\/_\/script\/source\/logo-gallery.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/main.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/main-min.js",
+		"inputAbbreviatedPath": "\/_\/script\/source\/logo-gallery.js",
+		"outputAbbreviatedPath": "\/logo-gallery.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_\/script\/source\/smooth-scroll.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_\/script\/source\/smooth-scroll.js",
-		"outputAbbreviatedPath": "\/_\/script\/source\/min\/smooth-scroll-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/_\/style\/_layout.scss": {
 		"createSourceMap": 0,
@@ -362,6 +318,15 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/contributors.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contributors.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/icons\/apple-touch-icon-114x114.png": {
 		"fileType": 32768,
@@ -792,6 +757,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/event1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59243,
+		"inputAbbreviatedPath": "\/images\/event1.jpg",
+		"outputAbbreviatedPath": "\/images\/event1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/fb-big.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -858,6 +834,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/logos\/hack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37052,
+		"inputAbbreviatedPath": "\/images\/logos\/hack.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/hack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/hack.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/hack.png",
+		"outputAbbreviatedPath": "\/images\/logos\/hack.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/jappa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48669,
+		"inputAbbreviatedPath": "\/images\/logos\/jappa.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/jappa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/jappa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/jappa.png",
+		"outputAbbreviatedPath": "\/images\/logos\/jappa.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/parkey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37211,
+		"inputAbbreviatedPath": "\/images\/logos\/parkey.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/parkey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/parkey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/parkey.png",
+		"outputAbbreviatedPath": "\/images\/logos\/parkey.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/softwareskilss.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35144,
+		"inputAbbreviatedPath": "\/images\/logos\/softwareskilss.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/softwareskilss.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/softwareskilss.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/softwareskilss.png",
+		"outputAbbreviatedPath": "\/images\/logos\/softwareskilss.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/vc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30802,
+		"inputAbbreviatedPath": "\/images\/logos\/vc.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/vc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/vc.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/vc.png",
+		"outputAbbreviatedPath": "\/images\/logos\/vc.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/west.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25579,
+		"inputAbbreviatedPath": "\/images\/logos\/west.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/west.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/west.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/images\/logos\/west.png",
+		"outputAbbreviatedPath": "\/images\/logos\/west.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/suppsevent1-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -922,16 +1030,27 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/modernizr.js": {
+	"\/logo-gallery.min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/logo-gallery.min.js",
+		"outputAbbreviatedPath": "\/min\/logo-gallery.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/modernizr.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/modernizr.js",
-		"outputAbbreviatedPath": "\/min\/modernizr-min.js",
+		"inputAbbreviatedPath": "\/modernizr.min.js",
+		"outputAbbreviatedPath": "\/min\/modernizr.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/README.html": {
 		"fileType": 8192,

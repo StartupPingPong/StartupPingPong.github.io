@@ -220,27 +220,41 @@
     animation-delay: 5.5s;
   }
 
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-  } 
-  100% {
-    opacity: 0.4;
+  nav {
+    /*@include animate();
+    @include fadeInUp();
+    animation-delay: 5.5s;*/
   }
-}
 
-#mc_embed_signup { 
-    @include animate();
-    @include fadeIn();
-    animation-delay: 4s;
-    animation-duration: 1s;
-}
+  @keyframes fadeInOpacity {
+    0% {
+      opacity: 0;
+    } 
+    100% {
+      opacity: 0.4;
+    }
+  }
 
-#built-for {
-    @include animate();
-    @include fadeIn();
-    animation-delay: 6s;
-}
+  #mc_embed_signup { 
+      @include animate();
+      @include fadeIn();
+      animation-delay: 4s;
+      animation-duration: 1s;
+  }
+
+  /*#built-for {
+      @include animate();
+      @include fadeIn();
+      animation-delay: 6s;
+  }*/
+
+  body.polorid-page {
+    section {
+      @include animate();
+      @include fadeInUp();
+      animation-delay: 0;
+    }
+  }
 
 }
  

@@ -25,10 +25,10 @@ section {
 }
 
 nav#main-menu {
-  position: fixed;
+  position: absolute;
   left: fnGetSpacing(100);
   top: fnGetSpacing(100);
-  z-index: 9999;
+  z-index: 9999!important;
   ul {
     .main-menu-current {
       a {
@@ -702,6 +702,9 @@ span.cbp-biprev:before {
 // POLORID GALLERY
 
 body.polorid-page {
+  #bg {
+    background: url('images/bg-1.jpg');
+  }
   section {
     top: 0!important;
     z-index: 0;
@@ -722,7 +725,7 @@ body.polorid-page {
 }
 
 .photostack {
-  background: #ddd;
+  background: none!important;
   position: relative;
   text-align: center;
   overflow: hidden;
@@ -1024,7 +1027,7 @@ figure.photostack-current::after {
     height: auto;
     padding: 75px;
     margin: 0;
-    opacity: 0.3!important;
+    opacity: 0.75!important;
     a {
       padding: 0;
       margin: 0;
@@ -1050,4 +1053,45 @@ figure.photostack-current::after {
     opacity: 1!important;
   }
 }
+
+// section
+
+#bg {
+  background-size: cover!important;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body.contact-page {
+  #bg {
+  background: url('images/bg-2.jpg');
+  }
+   section {
+    top: 0!important;
+    z-index: 0;
+    height: 100vh;
+    width: 100%;
+    float: left;
+    @include wrapper();
+    @include center();
+    @include middle();
+    div {
+      text-align: center;
+      h1 {
+        margin: 0 0 fnGetSpacing(25) 0;
+      }
+      h6 {
+        font-weight: normal;
+        font-size: 90%;
+        letter-spacing: 0;
+      }
+    }
+  }  
+}
+
+
  

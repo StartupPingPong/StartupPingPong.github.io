@@ -248,11 +248,23 @@
       animation-delay: 6s;
   }*/
 
+  #bg {
+    @include animate();
+    @include fadeIn();
+    animation-delay: 0; 
+  }
   body.polorid-page {
     section {
       @include animate();
-      @include fadeInUp();
-      animation-delay: 0;
+      @include fadeIn();
+      animation-delay: 200ms;
+    }
+  }
+  body.contact-page {
+    section {
+      @include animate();
+      @include fadeIn();
+      animation-delay: 200ms;
     }
   }
 

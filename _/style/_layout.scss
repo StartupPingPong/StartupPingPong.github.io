@@ -31,6 +31,9 @@ nav#main-menu {
   z-index: 9999;
   a {
     margin-right: fnGetSpacing(50);
+     @media (max-width: 480px) { 
+      margin-right: fnGetSpacing(15);
+     }
   }
   .main-menu-current {
     border-bottom: 1px solid #fff;

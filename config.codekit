@@ -26,7 +26,7 @@
 		},
 	"\/_\/script\/source\/insta.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_\/script\/source\/insta.js",
 		"outputAbbreviatedPath": "\/_\/script\/source\/min\/insta-min.js",
@@ -1123,20 +1123,26 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/insta.js",
 			"position": 1,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.fitvids.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/jquery.imagesloaded.min.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/_\/script\/source\/cbpBGSlideshow.min.js",
+			"position": 4,
 			"type": 0
 			}
 		]

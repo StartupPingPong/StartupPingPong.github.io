@@ -887,6 +887,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/logos\/skyltmax_se.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10039,
+		"inputAbbreviatedPath": "\/images\/logos\/skyltmax_se.jpg",
+		"outputAbbreviatedPath": "\/images\/logos\/skyltmax_se.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/logos\/skyltmax_se.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5184,
+		"inputAbbreviatedPath": "\/images\/logos\/skyltmax_se.png",
+		"outputAbbreviatedPath": "\/images\/logos\/skyltmax_se.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/logos\/softwareskilss.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

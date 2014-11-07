@@ -46,6 +46,11 @@ nav#main-menu {
     width: 100%;
     text-align: center;
   }
+  a#play-btn {
+    @media (max-width: 1080px) {
+      display: none!important;
+    }
+  }
 }
 
 #built-for {
@@ -1185,13 +1190,30 @@ body.contact-page {
     z-index: 0;
     height: 100vh;
     width: 100%;
+    margin: auto;
     float: left;
     @include wrapper();
     @include center();
     @include middle();
     div {
       text-align: center;
+      @include wrapper();
+      @include center();
+      @include middle();
+      blockquote {
+        @include col-3();
+      }
+      .qoute-4 {
+        @include col-3();
+      }
+      .qoute-5 {
+        @include col-3();
+      }
+      .qoute-6 {
+        @include col-3();
+      }
       h1 {
+        @include col-12();
         margin: 0 0 fnGetSpacing(25) 0;
         @media (max-width: 767px){
           font-size: 200%;
